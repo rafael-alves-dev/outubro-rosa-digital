@@ -9,3 +9,11 @@
 @media(max-width:360px){.nav{gap:8px}.brand,.brand img{width:90px}.campaign{font-size:16px}.campaign span{font-size:6px;letter-spacing:1.2px}.menu-toggle{padding:6px;font-size:10px;gap:5px}.hero h1{font-size:12vw}.eyebrow{font-size:9px;letter-spacing:1.5px}.ribbon-strip .wrap{letter-spacing:.5px}.sign-card{padding:13px}.floating-note{padding:12px;left:-12px}.floating-note strong{font-size:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.motion-ready .reveal:not(.visible){opacity:1;transform:none}}
 @media print{.header,.institutional,.reading-progress,.ribbon-strip,.hero-art,#biblioteca,#jogos,.sources,.actions,.hero-foot,footer,button,.faq,.myths-section{display:none!important}.wrap{width:100%}.section{padding:20px 0;break-inside:avoid}.hero{display:block;padding:20px 0}.hero h1{font-size:35px}.hero h1 br{display:none}h2{font-size:28px}.intro-grid,.signs-grid{display:block}.intro-grid article,.sign-card{padding:12px;min-height:0;background:white!important;color:black!important;border:1px solid #aaa;margin:10px 0}.intro-main h3{color:black}.care-layout,.support-layout{display:block}.reveal{opacity:1!important;transform:none!important}.line-icon,.cell-art,.sign-symbol,.tag,.support-card{display:none}.section-heading{display:block}.section-heading>p{max-width:100%}.care-step{padding:10px 0}.care-quote{margin:15px 0}a{text-decoration:none}}
+/* Correção dos títulos na versão mobile */
+@media (max-width: 768px) {
+    h1 br,
+    h2 br,
+    h3 br {
+        display: inline !important;
+    }
+}
